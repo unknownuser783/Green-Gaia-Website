@@ -1,0 +1,290 @@
+/* General Reset */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3B4C29; /* Deep forest green */
+    padding: 20px;
+}
+
+/* Logo and Title Container */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 3px solid #FAF9F6; /* Soft off-white border for a professional look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #FAF9F6; /* Soft off-white */
+    white-space: nowrap;
+}
+
+/* Navigation */
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #FAF9F6; /* Soft off-white */
+    text-decoration: none;
+    padding: 12px 20px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #A9D1A9; /* Lighter green for hover effect */
+}
+
+nav ul li a:focus {
+    color: #A9D1A9;
+}
+
+/* Motto Section */
+.motto-section {
+    background-color: #F6F7F3; /* Very light, soft grey */
+    padding: 80px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.motto-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #3B4C29; /* Deep forest green */
+    margin-bottom: 20px;
+}
+
+.motto-section .interactive-button {
+    background-color: #3B4C29; /* Deep forest green */
+    color: #FAF9F6; /* Soft off-white */
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.motto-section .interactive-button:hover {
+    background-color: #263321; /* Darker green on hover */
+    transform: scale(1.05);
+}
+
+/* Style different sections/elements */
+.section {
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #3B4C29; /* Deep forest green */
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+
+/* Style Working Buttons */
+.interactive-button {
+    background-color: #3B4C29; /* Deep forest green */
+    color: #FAF9F6; /* Soft off-white */
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.interactive-button:hover {
+    background-color: #263321; /* Darker green on hover */
+    transform: scale(1.05);
+}
+
+/* footer */
+footer {
+    background-color: #3B4C29; 
+    color: #FAF9F6; 
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color:#FAF9F6 ;
+}
+
+footer .hours {
+font-size: 1.2rem;
+margin-top: 15px;
+color: #D1E8D1;
+}
+
+footer.hours span{
+    display: block;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+/* MENU TABS */
+.menutabs {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.menutabs button {
+    background-color: #FAF9F6; /* Very light grey */
+    color: #333;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    cursor: pointer;
+    padding: 14px 20px;
+    margin: 0 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border-radius: 5px 5px 0 0;
+    transition: all 0.3s ease;
+}
+
+.menutabs button:hover {
+    background-color: #E5E5E5; /* Slightly darker grey */
+}
+
+.menutabs button.active {
+    background-color: #3B4C29; /* Deep forest green */
+    color: #FAF9F6; /* Soft off-white */
+    font-weight: bold;
+}
+
+/* menu subsections */
+
+.type{
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#2c6e49 ;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom:2px solid #4CAF50
+     ;
+     padding-bottom: 0.5rem;
+
+}
+
+.type + p {
+    margin-top: 0.5rem;
+
+    margin-bottom: 0.5rem;
+}
+
+section { margin-bottom: 2rem}
+
+/* tabs */
+.tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: #FAF9F6; /* Light grey */
+    border: 1px solid #ddd;
+    border-radius: 0 0 5px 5px;
+    margin: 0 auto;
+    max-width: 80%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.tabcontent ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.tabcontent ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+
+#section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    gap: 10px;
+}
+
+.input {
+    display: block;  
+    margin: auto;    
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input[name="Message"] {
+    height: 120px; 
+    resize: vertical; 
+    overflow: auto;
+    white-space: pre-wrap;
+}
+
+
+.type {
+    color: #3B4C29; 
+    font-size: 25px;
+}
